@@ -1,4 +1,4 @@
-package Practice;
+package Duck_Example;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;
