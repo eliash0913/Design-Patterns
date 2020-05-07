@@ -17,6 +17,6 @@ Disadvantage: Limits the reuse potential because you have to subclass.
 ### Starbuzz_Example:
 Decorator pattern. There is a super class and sub classes are decorating. Classes should be open for extension but closed for modification.
 
-### IO__Decorator_Example:
+### IO_Decorator_Example:
 This example extends FilterInputStream, which means LowerCaseInputStream is a subclass of FilterInputStream and decorating on the top of FilterInputStream class.
   
