@@ -28,9 +28,16 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 3. No method should override an implemented method of any of its base classes.
 
 ## Singleton Pattern
-### Singleton_Example
+### Singleton_Example:
 This pattern ensures a class only has one instance and provide a global point of access to it.
 1. used private constructor.
 2. used static method to instantiate and return the instance.
 3. used synchronized block for multi-threading.
 4. used volatile keyword with synchronized block for the improvement. <--once instance is not null, it doesn't have to wait.
+
+## Command Pattern
+### Command_Example:
+This pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log, and support undoable operations.
+1. Invokers executes multiple commands.
+2. Each object is a command which contains actions.
+
