@@ -19,4 +19,10 @@ Decorator pattern. There is a super class and sub classes are decorating. Classe
 
 ### IO_Decorator_Example:
 This example extends FilterInputStream, which means LowerCaseInputStream is a subclass of FilterInputStream and decorating on the top of FilterInputStream class.
-  
+
+## Factory Pattern
+### Pizza_Example:
+The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+1. No variable should hold a reference to a concrete class.
+2. No class should derive from a concrete class.
+3. No method should override an implemented method of any of its base classes.
