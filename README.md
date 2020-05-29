@@ -27,7 +27,7 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 2. No class should derive from a concrete class.
 3. No method should override an implemented method of any of its base classes.
 
-## Singleton Patter
+## Singleton Pattern
 ### Singleton_Example
 This pattern ensures a class only has one instance and provide a global point of access to it.
 1. used private constructor.
